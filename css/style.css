@@ -83,12 +83,11 @@ div[id] {
 
 /* <!-- video start --> */
 #video {
-  position: relative;
-  width: 1920px;
-  margin: 0px auto;
+  display: flex;
+  justify-content: center;
   height: 950px;
+  position: relative;
 }
-
 /*  <!-- about_wrapstart --> */
 #about_wrap {
   width: 1400px;
